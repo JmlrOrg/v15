@@ -1,0 +1,16 @@
+{
+    "abstract": "Many real-world problems involve the optimization of multiple, possibly conflicting objectives. Multi-objective reinforcement learning (MORL) is a generalization of standard reinforcement learning where the scalar reward signal is extended to multiple feedback signals, in essence, one for each objective. MORL is the process of learning policies that optimize multiple criteria simultaneously. In this paper, we present a novel temporal difference learning algorithm that integrates the Pareto dominance relation into a reinforcement learning approach. This algorithm is a multi-policy algorithm that learns a set of Pareto dominating policies in a single run. We name this algorithm <i>Pareto Q-learning</i> and it is applicable in episodic environments with deterministic as well as stochastic transition functions. A crucial aspect of Pareto $Q$-learning is the updating mechanism that bootstraps sets of $Q$-vectors. One of our main contributions in this paper is a mechanism that separates the expected immediate reward vector from the set of expected future discounted reward vectors. This decomposition allows us to update the sets and to exploit the learned policies consistently throughout the state space. To balance exploration and exploitation during learning, we also propose three set evaluation mechanisms. These three mechanisms evaluate the sets of vectors to accommodate for standard action selection strategies, such as $\\epsilon$-greedy. More precisely, these mechanisms use multi-objective evaluation principles such as the hypervolume measure, the cardinality indicator and the Pareto dominance relation to select the most promising actions. We experimentally validate the algorithm on multiple environments with two and three objectives and we demonstrate that Pareto $Q$-learning outperforms current state-of-the-art MORL algorithms with respect to the hypervolume of the obtained policies. We note that (1) Pareto $Q$-learning is able to learn the entire Pareto front under the usual assumption that each state-action pair is sufficiently sampled, while (2) not being biased by the shape of the Pareto front. Furthermore, (3) the set evaluation mechanisms provide indicative measures for local action selection and (4) the learned policies can be retrieved throughout the state and action space.",
+    "authors": [
+        "Kristof Van Moffaert",
+        "Ann Now{{\\'e}}"
+    ],
+    "id": "vanmoffaert14a",
+    "issue": 107,
+    "pages": [
+        3663,
+        3692
+    ],
+    "title": "Multi-Objective Reinforcement Learning using Sets of Pareto Dominating Policies",
+    "volume": 15,
+    "year": 2014
+}

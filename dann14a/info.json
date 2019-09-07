@@ -1,0 +1,17 @@
+{
+    "abstract": " <p>Policy evaluation is an essential step in most reinforcement learning approaches. It yields a value function, the quality assessment of states for a given policy, which can be used in a policy improvement step. Since the late 1980s, this research area has been dominated by temporal-difference (TD) methods due to their data-efficiency. However, core issues such as stability guarantees in the off-policy scenario, improved sample efficiency and probabilistic treatment of the uncertainty in the estimates have only been tackled recently, which has led to a large number of new approaches.</p> <p>This paper aims at making these new developments accessible in a concise overview, with foci on underlying cost functions, the off-policy scenario as well as on regularization in high dimensional feature spaces. By presenting the first extensive, systematic comparative evaluations comparing TD, LSTD, LSPE, FPKF, the residual- gradient algorithm, Bellman residual minimization, GTD, GTD2 and TDC, we shed light on the strengths and weaknesses of the methods. Moreover, we present alternative versions of LSTD and LSPE with drastically improved off-policy performance.</p>",
+    "authors": [
+        "Christoph Dann",
+        "Gerhard Neumann",
+        "Jan Peters"
+    ],
+    "id": "dann14a",
+    "issue": 24,
+    "pages": [
+        809,
+        883
+    ],
+    "title": "Policy Evaluation with Temporal Differences: A Survey and Comparison",
+    "volume": 15,
+    "year": 2014
+}

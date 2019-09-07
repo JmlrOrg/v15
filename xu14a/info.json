@@ -1,0 +1,19 @@
+{
+    "abstract": "Machine learning algorithms have successfully entered industry through many real-world applications (e.g., search engines and product recommendations). In these applications, the test-time CPU cost must be budgeted and accounted for. In this paper, we examine two main components of the test-time CPU cost, <i>classifier evaluation cost</i> and <i>feature extraction cost</i>, and show how to balance these costs with the classifier accuracy. Since the computation required for feature extraction dominates the test-time cost of a classifier in these settings, we develop two algorithms to efficiently balance the performance with the test-time cost. Our first contribution describes how to construct and optimize a tree of classifiers, through which test inputs traverse along individual paths. Each path extracts different features and is optimized for a specific sub-partition of the input space. Our second contribution is a natural reduction of the tree of classifiers into a cascade. The cascade is particularly useful for class-imbalanced data sets as the majority of instances can be early-exited out of the cascade when the algorithm is sufficiently confident in its prediction. Because both approaches only compute features for inputs that benefit from them the most, we find our trained classifiers lead to high accuracies at a small fraction of the computational cost.",
+    "authors": [
+        "Zhixiang (Eddie) Xu",
+        "Matt J. Kusner",
+        "Kilian Q. Weinberger",
+        "Minmin Chen",
+        "Olivier Chapelle"
+    ],
+    "id": "xu14a",
+    "issue": 62,
+    "pages": [
+        2113,
+        2144
+    ],
+    "title": "Classifier Cascades and Trees for Minimizing Feature Evaluation Cost",
+    "volume": 15,
+    "year": 2014
+}

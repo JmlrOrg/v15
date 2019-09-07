@@ -1,0 +1,19 @@
+{
+    "abstract": "We study unsupervised learning in a probabilistic generative model for occlusion. The model uses two types of latent variables: one indicates which objects are present in the image, and the other how they are ordered in depth. This depth order then determines how the positions and appearances of the objects present, specified in the model parameters, combine to form the image. We show that the object parameters can be learned from an unlabeled set of images in which objects occlude one another. Exact maximum-likelihood learning is intractable. Tractable approximations can be derived, however, by applying a truncated variational approach to Expectation Maximization (EM). In numerical experiments it is shown that these approximations recover the underlying set of object parameters including data noise and sparsity. Experiments on a novel version of the bars test using colored bars, and experiments on more realistic data, show that the algorithm performs well in extracting the generating components. The studied approach demonstrates that the multiple-causes generative approach can be generalized to extract occluding components, which links research on occlusion to the field of sparse coding approaches.",
+    "authors": [
+        "Marc Henniges",
+        "Richard E. Turner",
+        "Maneesh Sahani",
+        "Julian Eggert",
+        "J{{\\\"o}}rg L{{\\\"u}}cke"
+    ],
+    "id": "henniges14a",
+    "issue": 78,
+    "pages": [
+        2689,
+        2722
+    ],
+    "title": "Efficient Occlusive Components Analysis",
+    "volume": 15,
+    "year": 2014
+}

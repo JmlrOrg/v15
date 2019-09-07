@@ -1,0 +1,16 @@
+{
+    "abstract": "Structured prediction methods have become a central tool for many machine learning applications. While more and more algorithms are developed, only very few implementations are available. <i>pystruct</i> aims at providing a general purpose implementation of standard structured prediction methods, both for practitioners and as a baseline for researchers. It is written in Python and adapts paradigms and types from the scientific Python community for seamless integration with other projects.",
+    "authors": [
+        "Andreas C. M{\\\"u}ller",
+        "Sven Behnke"
+    ],
+    "id": "mueller14a",
+    "issue": 59,
+    "pages": [
+        2055,
+        2060
+    ],
+    "title": "pystruct - Learning Structured Prediction in Python",
+    "volume": 15,
+    "year": 2014
+}

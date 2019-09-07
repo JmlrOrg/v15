@@ -1,0 +1,17 @@
+{
+    "abstract": "The ramp loss is a robust but non-convex loss for classification. Compared with other non-convex losses, a local minimum of the ramp loss can be effectively found. The effectiveness of local search comes from the piecewise linearity of the ramp loss. Motivated by the fact that the $\\ell_1$-penalty is piecewise linear as well, the $\\ell_1$-penalty is applied for the ramp loss, resulting in a ramp loss linear programming support vector machine (ramp- LPSVM). The proposed ramp-LPSVM is a piecewise linear minimization problem and the related optimization techniques are applicable. Moreover, the $\\ell_1$-penalty can enhance the sparsity. In this paper, the corresponding misclassification error and convergence behavior are discussed. Generally, the ramp loss is a truncated hinge loss. Therefore ramp-LPSVM possesses some similar properties as hinge loss SVMs. A local minimization algorithm and a global search strategy are discussed. The good optimization capability of the proposed algorithms makes ramp-LPSVM perform well in numerical experiments: the result of ramp-LPSVM is more robust than that of hinge SVMs and is sparser than that of ramp-SVM, which consists of the $\\|\\cdot\\|_{\\mathcal{K}} $-penalty and the ramp loss.",
+    "authors": [
+        "Xiaolin Huang",
+        "Lei Shi",
+        "Johan A.K. Suykens"
+    ],
+    "id": "huang14a",
+    "issue": 64,
+    "pages": [
+        2185,
+        2211
+    ],
+    "title": "Ramp Loss Linear Programming Support Vector Machine",
+    "volume": 15,
+    "year": 2014
+}

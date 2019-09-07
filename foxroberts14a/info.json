@@ -1,0 +1,16 @@
+{
+    "abstract": "Reliable semi-supervised learning, where a small amount of labelled data is complemented by a large body of unlabelled data, has been a long-standing goal of the machine learning community. However, while it seems intuitively obvious that unlabelled data can aid the learning process, in practise its performance has often been disappointing. We investigate this by examining generative maximum likelihood semi-supervised learning and derive novel upper and lower bounds on the degree of bias introduced by the unlabelled data. These bounds improve upon those provided in previous work, and are specifically applicable to the challenging case where the model is unable to exactly fit to the underlying distribution, a situation which is common in practise, but for which fewer guarantees of semi-supervised performance have been found. Inspired by this new framework for analysing bounds, we propose a new, simple reweighing scheme which provides a provably unbiased estimator for arbitrary model/distribution pairs---an unusual property for a semi- supervised algorithm. This reweighing introduces no additional computational complexity and can be applied to very many models. Additionally, we provide specific conditions demonstrating the circumstance under which the unlabelled data will lower the estimator variance, thereby improving convergence.",
+    "authors": [
+        "Patrick Fox-Roberts",
+        "Edward Rosten"
+    ],
+    "id": "foxroberts14a",
+    "issue": 12,
+    "pages": [
+        367,
+        443
+    ],
+    "title": "Unbiased Generative Semi-Supervised Learning",
+    "volume": 15,
+    "year": 2014
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We establish a new framework for statistical estimation of directed acyclic graphs (DAGs) when data are generated from a linear, possibly non-Gaussian structural equation model. Our framework consists of two parts: (1) inferring the moralized graph from the support of the inverse covariance matrix; and (2) selecting the best-scoring graph amongst DAGs that are consistent with the moralized graph. We show that when the error variances are known or estimated to close enough precision, the true DAG is the unique minimizer of the score computed using the reweighted squared $\\ell_2$-loss. Our population-level results have implications for the identifiability of linear SEMs when the error covariances are specified up to a constant multiple. On the statistical side, we establish rigorous conditions for high-dimensional consistency of our two-part algorithm, defined in terms of a \"gap\" between the true DAG and the next best candidate. Finally, we demonstrate that dynamic programming may be used to select the optimal DAG in linear time when the treewidth of the moralized graph is bounded.",
+    "authors": [
+        "Po-Ling Loh",
+        "Peter B\\\"{u}hlmann"
+    ],
+    "id": "loh14a",
+    "issue": 88,
+    "pages": [
+        3065,
+        3105
+    ],
+    "title": "High-Dimensional Learning of Linear Causal Networks via Inverse Covariance Estimation",
+    "volume": 15,
+    "year": 2014
+}

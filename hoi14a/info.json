@@ -1,0 +1,17 @@
+{
+    "abstract": " <tt>LIBOL</tt> is an open-source library for large-scale online learning, which consists of a large family of efficient and scalable state-of-the-art online learning algorithms for large- scale online classification tasks. We have offered easy-to-use command-line tools and examples for users and developers, and also have made comprehensive documents available for both beginners and advanced users. <tt>LIBOL</tt> is not only a machine learning toolbox, but also a comprehensive experimental platform for conducting online learning research.",
+    "authors": [
+        "Steven C.H. Hoi",
+        "Jialei Wang",
+        "Peilin Zhao"
+    ],
+    "id": "hoi14a",
+    "issue": 15,
+    "pages": [
+        495,
+        499
+    ],
+    "title": "LIBOL: A Library for Online Learning Algorithms",
+    "volume": 15,
+    "year": 2014
+}

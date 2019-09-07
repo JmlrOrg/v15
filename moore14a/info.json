@@ -1,0 +1,21 @@
+{
+    "abstract": "Clinical research has demonstrated the efficacy of closed-loop control of anesthesia using the bispectral index of the electroencephalogram as the controlled variable. These controllers have evolved to yield patient-specific anesthesia, which is associated with improved patient outcomes. Despite progress, the problem of patient-specific anesthesia remains unsolved. A variety of factors confound good control, including variations in human physiology, imperfect measures of drug effect, and delayed, hysteretic response to drug delivery. Reinforcement learning (RL) appears to be uniquely equipped to overcome these challenges; however, the literature offers no precedent for RL in anesthesia. To begin exploring the role RL might play in improving anesthetic care, we investigated the method's application in the delivery of patient-specific, propofol-induced hypnosis in human volunteers. When compared to performance metrics reported in the anesthesia literature, RL demonstrated patient-specific control marked by improved accuracy and stability. Furthermore, these results suggest that RL may be considered a viable alternative for solving other difficult closed-loop control problems in medicine. More rigorous clinical study, beyond the confines of controlled human volunteer studies, is needed to substantiate these findings.",
+    "authors": [
+        "Brett L Moore",
+        "Larry D Pyeatt",
+        "Vivekan",
+        "Kulkarni",
+        "Periklis Panousis",
+        "Kevin Padrez",
+        "Anthony G Doufas"
+    ],
+    "id": "moore14a",
+    "issue": 21,
+    "pages": [
+        655,
+        696
+    ],
+    "title": "Reinforcement Learning for Closed-Loop Propofol Anesthesia: A Study in Human Volunteers",
+    "volume": 15,
+    "year": 2014
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "Flexible covariate-dependent density estimation can be achieved by modelling the joint density of the response and covariates as a Dirichlet process mixture. An appealing aspect of this approach is that computations are relatively easy. In this paper, we examine the predictive performance of these models with an increasing number of covariates. Even for a moderate number of covariates, we find that the likelihood for $x$ tends to dominate the posterior of the latent random partition, degrading the predictive performance of the model. To overcome this, we suggest using a different nonparametric prior, namely an enriched Dirichlet process. Our proposal maintains a simple allocation rule, so that computations remain relatively simple. Advantages are shown through both predictive equations and examples, including an application to diagnosis Alzheimer's disease.",
+    "authors": [
+        "Sara Wade",
+        "David B. Dunson",
+        "Sonia Petrone",
+        "Lorenzo Trippa"
+    ],
+    "id": "wade14a",
+    "issue": 30,
+    "pages": [
+        1041,
+        1071
+    ],
+    "title": "Improving Prediction from Dirichlet Process Mixtures via Enrichment",
+    "volume": 15,
+    "year": 2014
+}

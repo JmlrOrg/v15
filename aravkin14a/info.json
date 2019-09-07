@@ -1,0 +1,20 @@
+{
+    "abstract": "We study a simple linear regression problem for grouped variables; we are interested in methods which jointly perform estimation and <i>variable selection</i>, that is, that automatically set to zero groups of variables in the regression vector. The Group Lasso (GLasso), a well known approach used to tackle this problem which is also a special case of Multiple Kernel Learning (MKL), boils down to solving convex optimization problems. On the other hand, a Bayesian approach commonly known as Sparse Bayesian Learning (SBL), a version of which is the well known Automatic Relevance Determination (ARD), lead to non- convex problems. In this paper we discuss the relation between ARD (and a penalized version which we call PARD) and Glasso, and study their asymptotic properties in terms of the Mean Squared Error in estimating the unknown parameter. The theoretical arguments developed here are independent of the correctness of the prior models and clarify the advantages of PARD over GLasso.",
+    "authors": [
+        "Aleks",
+        "r Aravkin",
+        "James V. Burke",
+        "Aless",
+        "ro Chiuso",
+        "Gianluigi Pillonetto"
+    ],
+    "id": "aravkin14a",
+    "issue": 7,
+    "pages": [
+        217,
+        252
+    ],
+    "title": "Convex vs Non-Convex Estimators for Regression and Sparse Estimation: the Mean Squared Error Properties of ARD and GLasso",
+    "volume": 15,
+    "year": 2014
+}

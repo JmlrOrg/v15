@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper proposes an online tree-based Bayesian approach for reinforcement learning. For inference, we employ a generalised context tree model. This defines a distribution on multivariate Gaussian piecewise-linear models, which can be updated in closed form. The tree structure itself is constructed using the cover tree method, which remains efficient in high dimensional spaces. We combine the model with Thompson sampling and approximate dynamic programming to obtain effective exploration policies in unknown environments. The flexibility and computational simplicity of the model render it suitable for many reinforcement learning problems in continuous state spaces. We demonstrate this in an experimental comparison with a Gaussian process model, a linear model and simple least squares policy iteration.",
+    "authors": [
+        "Nikolaos Tziortziotis",
+        "Christos Dimitrakakis",
+        "Konstantinos Blekas"
+    ],
+    "id": "tziortziotis14a",
+    "issue": 67,
+    "pages": [
+        2313,
+        2335
+    ],
+    "title": "Cover Tree Bayesian Reinforcement Learning",
+    "volume": 15,
+    "year": 2014
+}

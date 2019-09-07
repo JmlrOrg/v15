@@ -1,0 +1,17 @@
+{
+    "abstract": "Decision forests are an increasingly popular tool in computer vision problems. Their advantages include high computational efficiency, state-of-the-art accuracy and multi-class support. In this paper, we present a novel method for transfer learning which uses decision forests, and we apply it to recognize gestures and characters. We introduce two mechanisms into the decision forest framework in order to transfer knowledge from the source tasks to a given target task. The first one is mixed information gain, which is a data-based regularizer. The second one is label propagation, which infers the manifold structure of the feature space. We show that both of them are important to achieve higher accuracy. Our experiments demonstrate improvements over traditional decision forests in the ChaLearn Gesture Challenge and MNIST data set. They also compare favorably against other state-of-the-art classifiers.",
+    "authors": [
+        "Norberto A. Goussies",
+        "Sebasti{{\\'a}}n Ubalde",
+        "Marta Mejail"
+    ],
+    "id": "goussies14a",
+    "issue": 113,
+    "pages": [
+        3847,
+        3870
+    ],
+    "title": "Transfer Learning Decision Forests for Gesture Recognition",
+    "volume": 15,
+    "year": 2014
+}

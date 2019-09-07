@@ -1,0 +1,17 @@
+{
+    "abstract": "Consider a linear model $Y = X \\beta + \\sigma z$, where $X$ has $n$ rows and $p$ columns and $z \\sim N(0, I_n)$. We assume both $p$ and $n$ are large, including the case of $p \\gg n$. The unknown signal vector $\\beta$ is assumed to be sparse in the sense that only a small fraction of its components is nonzero. The goal is to identify such nonzero coordinates (i.e., variable selection). We are primarily interested in the regime where signals are both <i>rare and weak</i> so that successful variable selection is challenging but is still possible. We assume the Gram matrix $G = X'X$ is sparse in the sense that each row has relatively few large entries (diagonals of $G$ are normalized to $1$). The sparsity of $G$ naturally induces the sparsity of the so-called <i>Graph of Strong Dependence</i> (GOSD). The key insight is that there is an interesting interplay between the signal sparsity and graph sparsity: in a broad context, the signals decompose into many small-size components of GOSD that are disconnected to each other. We propose <i>Graphlet Screening</i> for variable selection. This is a two-step Screen and Clean procedure, where in the first step, we screen subgraphs of GOSD with sequential $\\chi^2$-tests, and in the second step, we clean with penalized MLE. The main methodological innovation is to use GOSD to guide both the screening and cleaning processes. For any variable selection procedure $\\hat{\\beta}$, we measure its performance by the Hamming distance between the sign vectors of $\\hat{\\beta}$ and $\\beta$, and assess the optimality by the minimax Hamming distance. Compared with more stringent criteria such as exact support recovery or oracle property, which demand strong signals, the Hamming distance criterion is more appropriate for weak signals since it naturally allows a small fraction of errors. We show that in a broad class of situations, Graphlet Screening achieves the optimal rate of convergence in terms of the Hamming distance. Unlike Graphlet Screening, well- known procedures such as the $L^0/L^1$-penalization methods do not utilize local graphic structure for variable selection, so they generally do not achieve the optimal rate of convergence, even in very simple settings and even if the tuning parameters are ideally set. The the presented algorithm is implemented as R-CRAN package <i>ScreenClean</i> and in <i>matlab</i> (available at <a href=\"http://www.stat.cmu.edu/~jiashun/Research/software/GS- matlab/\">stat.cmu.edu</a>).",
+    "authors": [
+        "Jiashun Jin",
+        "Cun-Hui Zhang",
+        "Qi Zhang"
+    ],
+    "id": "jin14a",
+    "issue": 79,
+    "pages": [
+        2723,
+        2772
+    ],
+    "title": "Optimality of Graphlet Screening in High Dimensional Variable Selection",
+    "volume": 15,
+    "year": 2014
+}

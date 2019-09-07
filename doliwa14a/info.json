@@ -1,0 +1,19 @@
+{
+    "abstract": "This paper is concerned with various combinatorial parameters of classes that can be learned from a small set of examples. We show that the recursive teaching dimension, recently introduced by Zilles et al. (2008), is strongly connected to known complexity notions in machine learning, e.g., the self- directed learning complexity and the VC-dimension. To the best of our knowledge these are the first results unveiling such relations between teaching and query learning as well as between teaching and the VC-dimension. It will turn out that for many natural classes the RTD is upper-bounded by the VCD, e.g., classes of VC-dimension 1, intersection-closed classes and finite maximum classes. However, we will also show that there are certain (but rare) classes for which the recursive teaching dimension exceeds the VC-dimension. Moreover, for maximum classes, the combinatorial structure induced by the RTD, called teaching plan, is highly similar to the structure of sample compression schemes. Indeed one can transform any  <i>repetition-free teaching plan</i> for a maximum class $\\mathcal{C}$ into an <i>unlabeled sample compression scheme</i> for $\\mathcal{C}$ and vice versa, while the latter is produced by (i) the corner- peeling algorithm of Rubinstein and Rubinstein (2012) and (ii) the tail matching algorithm of Kuzmin and Warmuth (2007).",
+    "authors": [
+        "Thorsten Doliwa",
+        "Gaojian Fan",
+        "Hans Ulrich Simon",
+        "S",
+        "ra Zilles"
+    ],
+    "id": "doliwa14a",
+    "issue": 89,
+    "pages": [
+        3107,
+        3131
+    ],
+    "title": "Recursive Teaching Dimension, VC-Dimension and Sample Compression",
+    "volume": 15,
+    "year": 2014
+}

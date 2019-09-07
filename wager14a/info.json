@@ -1,0 +1,17 @@
+{
+    "abstract": "We study the variability of predictions made by bagged learners and random forests, and show how to estimate standard errors for these methods. Our work builds on variance estimates for bagging proposed by Efron (1992, 2013) that are based on the jackknife and the infinitesimal jackknife (IJ). In practice, bagged predictors are computed using a finite number $B$ of bootstrap replicates, and working with a large $B$ can be computationally expensive. Direct applications of jackknife and IJ estimators to bagging require $B = \\Theta (n^{1.5})$ bootstrap replicates to converge, where $n$ is the size of the training set. We propose improved versions that only require $B = \\Theta (n)$ replicates. Moreover, we show that the IJ estimator requires 1.7 times less bootstrap replicates than the jackknife to achieve a given accuracy. Finally, we study the sampling distributions of the jackknife and IJ variance estimates themselves. We illustrate our findings with multiple experiments and simulation studies.",
+    "authors": [
+        "Stefan Wager",
+        "Trevor Hastie",
+        "Bradley Efron"
+    ],
+    "id": "wager14a",
+    "issue": 48,
+    "pages": [
+        1625,
+        1651
+    ],
+    "title": "Confidence Intervals for Random Forests: The Jackknife and the Infinitesimal Jackknife",
+    "volume": 15,
+    "year": 2014
+}

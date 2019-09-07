@@ -1,0 +1,16 @@
+{
+    "abstract": "Data often consists of multiple diverse modalities. For example, images are tagged with textual information and videos are accompanied by audio. Each modality is characterized by having distinct statistical properties. We propose a Deep Boltzmann Machine for learning a generative model of such multimodal data. We show that the model can be used to create fused representations by combining features across modalities. These learned representations are useful for classification and information retrieval. By sampling from the conditional distributions over each data modality, it is possible to create these representations even when some data modalities are missing. We conduct experiments on bi-modal image-text and audio-video data. The fused representation achieves good classification results on the MIR-Flickr data set matching or outperforming other deep models as well as SVM based models that use Multiple Kernel Learning. We further demonstrate that this multimodal model helps classification and retrieval even when only unimodal data is available at test time.",
+    "authors": [
+        "Nitish Srivastava",
+        "Ruslan Salakhutdinov"
+    ],
+    "id": "srivastava14b",
+    "issue": 84,
+    "pages": [
+        2949,
+        2980
+    ],
+    "title": "Multimodal Learning with Deep Boltzmann Machines",
+    "volume": 15,
+    "year": 2014
+}

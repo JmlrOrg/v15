@@ -1,0 +1,18 @@
+{
+    "abstract": " <p>Optimization on manifolds is a rapidly developing branch of nonlinear optimization. Its focus is on problems where the smooth geometry of the search space can be leveraged to design efficient numerical algorithms. In particular, optimization on manifolds is well-suited to deal with rank and orthogonality constraints. Such structured constraints appear pervasively in machine learning applications, including low-rank matrix completion, sensor network localization, camera network registration, independent component analysis, metric learning, dimensionality reduction and so on.</p> <p>The Manopt toolbox, available at <a href=\"http://www.manopt.org\">www.manopt.org</a>, is a user-friendly, documented piece of software dedicated to simplify experimenting with state of the art Riemannian optimization algorithms. By dealing internally with most of the differential geometry, the package aims particularly at lowering the entrance barrier.</p>",
+    "authors": [
+        "Nicolas Boumal",
+        "Bamdev Mishra",
+        "P.-A. Absil",
+        "Rodolphe Sepulchre"
+    ],
+    "id": "boumal14a",
+    "issue": 42,
+    "pages": [
+        1455,
+        1459
+    ],
+    "title": "Manopt, a Matlab Toolbox for Optimization on Manifolds",
+    "volume": 15,
+    "year": 2014
+}

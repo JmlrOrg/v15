@@ -1,0 +1,16 @@
+{
+    "abstract": "In many applications, a finite mixture is a natural model, but it can be difficult to choose an appropriate number of components. To circumvent this choice, investigators are increasingly turning to Dirichlet process mixtures (DPMs), and Pitman--Yor process mixtures (PYMs), more generally. While these models may be well-suited for Bayesian density estimation, many investigators are using them for inferences about the number of components, by considering the posterior on the number of components represented in the observed data. We show that this posterior is not consistent---that is, on data from a finite mixture, it does not concentrate at the true number of components. This result applies to a large class of nonparametric mixtures, including DPMs and PYMs, over a wide variety of families of component distributions, including essentially all discrete families, as well as continuous exponential families satisfying mild regularity conditions (such as multivariate Gaussians).",
+    "authors": [
+        "Jeffrey W. Miller",
+        "Matthew T. Harrison"
+    ],
+    "id": "miller14a",
+    "issue": 96,
+    "pages": [
+        3333,
+        3370
+    ],
+    "title": "Inconsistency of Pitman-Yor Process Mixtures for the Number of Components",
+    "volume": 15,
+    "year": 2014
+}

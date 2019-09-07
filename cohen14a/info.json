@@ -1,0 +1,19 @@
+{
+    "abstract": "We introduce a spectral learning algorithm for latent-variable PCFGs (Matsuzaki et al., 2005; Petrov et al., 2006). Under a separability (singular value) condition, we prove that the method provides statistically consistent parameter estimates. Our result rests on three theorems: the first gives a tensor form of the inside- outside algorithm for PCFGs; the second shows that the required tensors can be estimated directly from training examples where hidden-variable values are missing; the third gives a PAC-style convergence bound for the estimation method.",
+    "authors": [
+        "Shay B. Cohen",
+        "Karl Stratos",
+        "Michael Collins",
+        "Dean P. Foster",
+        "Lyle Ungar"
+    ],
+    "id": "cohen14a",
+    "issue": 69,
+    "pages": [
+        2399,
+        2449
+    ],
+    "title": "Spectral Learning of Latent-Variable PCFGs: Algorithms and Sample Complexity",
+    "volume": 15,
+    "year": 2014
+}

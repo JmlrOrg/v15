@@ -1,0 +1,17 @@
+{
+    "abstract": "Classification problems with thousands or more classes often have a large range of class-confusabilities, and we show that the more-confusable classes add more noise to the empirical loss that is minimized during training. We propose an online solution that reduces the effect of highly confusable classes in training the classifier parameters, and focuses the training on pairs of classes that are easier to differentiate at any given time in the training. We also show that the adagrad method, recently proposed for automatically decreasing step sizes for convex stochastic gradient descent, can also be profitably applied to the nonconvex joint training of supervised dimensionality reduction and linear classifiers as done in Wsabie. Experiments on ImageNet benchmark data sets and proprietary image recognition problems with 15,000 to 97,000 classes show substantial gains in classification accuracy compared to one-vs- all linear SVMs and Wsabie.",
+    "authors": [
+        "Maya R. Gupta",
+        "Samy Bengio",
+        "Jason Weston"
+    ],
+    "id": "gupta14a",
+    "issue": 43,
+    "pages": [
+        1461,
+        1492
+    ],
+    "title": "Training Highly Multiclass Classifiers",
+    "volume": 15,
+    "year": 2014
+}

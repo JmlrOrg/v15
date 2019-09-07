@@ -1,0 +1,17 @@
+{
+    "abstract": "How can we take advantage of opportunities for experimental parallelization in exploration-exploitation tradeoffs? In many experimental scenarios, it is often desirable to execute experiments simultaneously or in batches, rather than only performing one at a time. Additionally, observations may be both noisy and expensive. We introduce Gaussian Process Batch Upper Confidence Bound (GP-BUCB), an upper confidence bound-based algorithm, which models the reward function as a sample from a Gaussian process and which can select batches of experiments to run in parallel. We prove a general regret bound for GP-BUCB, as well as the surprising result that for some common kernels, the asymptotic average regret can be made independent of the batch size. The GP-BUCB algorithm is also applicable in the related case of a delay between initiation of an experiment and observation of its results, for which the same regret bounds hold. We also introduce Gaussian Process Adaptive Upper Confidence Bound (GP-AUCB), a variant of GP-BUCB which can exploit parallelism in an adaptive manner. We evaluate GP-BUCB and GP-AUCB on several simulated and real data sets. These experiments show that GP-BUCB and GP-AUCB are competitive with state-of-the-art heuristics. (A previous version of this work appeared in the Proceedings of the 29th International Conference on Machine Learning, 2012.)",
+    "authors": [
+        "Thomas Desautels",
+        "Andreas Krause",
+        "Joel W. Burdick"
+    ],
+    "id": "desautels14a",
+    "issue": 119,
+    "pages": [
+        4053,
+        4103
+    ],
+    "title": "Parallelizing Exploration-Exploitation Tradeoffs in Gaussian Process Bandit Optimization",
+    "volume": 15,
+    "year": 2014
+}

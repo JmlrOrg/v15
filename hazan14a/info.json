@@ -1,0 +1,16 @@
+{
+    "abstract": " <p>We give novel algorithms for stochastic strongly-convex optimization in the gradient oracle model which return a $O(\\frac{1}{T})$-approximate solution after $T$ iterations. The first algorithm is deterministic, and achieves this rate via gradient updates and historical averaging. The second algorithm is randomized, and is based on pure gradient steps with a random step size.</p> <p>This rate of convergence is optimal in the gradient oracle model. This improves upon the previously known best rate of $O(\\frac{\\log(T)}{T})$, which was obtained by applying an online strongly-convex optimization algorithm with regret $O(\\log(T))$ to the batch setting.</p> <p>We complement this result by proving that any algorithm has expected regret of $\\Omega(\\log(T))$ in the online stochastic strongly-convex optimization setting. This shows that any online-to-batch conversion is inherently suboptimal for stochastic strongly- convex optimization. This is the first formal evidence that online convex optimization is strictly more difficult than batch stochastic convex optimization.</p>",
+    "authors": [
+        "Elad Hazan",
+        "Satyen Kale"
+    ],
+    "id": "hazan14a",
+    "issue": 71,
+    "pages": [
+        2489,
+        2512
+    ],
+    "title": "Beyond the Regret Minimization Barrier: Optimal Algorithms for Stochastic Strongly-Convex Optimization",
+    "volume": 15,
+    "year": 2014
+}

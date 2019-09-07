@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper, we consider supervised learning problems such as logistic regression and study the stochastic gradient method with averaging, in the usual stochastic approximation setting where observations are used only once. We show that after $N$ iterations, with a constant step-size proportional to $1/R^2 \\sqrt{N}$ where $N$ is the number of observations and $R$ is the maximum norm of the observations, the convergence rate is always of order $O(1/\\sqrt{N})$, and improves to $O(R^2 / \\mu N)$ where $\\mu$ is the lowest eigenvalue of the Hessian at the global optimum (when this eigenvalue is greater than $R^2/\\sqrt{N}$). Since $\\mu$ does not need to be known in advance, this shows that averaged stochastic gradient is adaptive to <i>unknown local</i> strong convexity of the objective function. Our proof relies on the generalized self-concordance properties of the logistic loss and thus extends to all generalized linear models with uniformly bounded features.",
+    "authors": [
+        "Francis Bach"
+    ],
+    "id": "bach14a",
+    "issue": 19,
+    "pages": [
+        595,
+        627
+    ],
+    "title": "Adaptivity of Averaged Stochastic Gradient Descent to Local Strong Convexity for Logistic Regression",
+    "volume": 15,
+    "year": 2014
+}

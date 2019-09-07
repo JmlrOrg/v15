@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a multi-task learning approach to jointly estimate the means of multiple independent distributions from samples. The proposed multi-task averaging (MTA) algorithm results in a convex combination of the individual task's sample averages. We derive the optimal amount of regularization for the two task case for the minimum risk estimator and a minimax estimator, and show that the optimal amount of regularization can be practically estimated without cross-validation. We extend the practical estimators to an arbitrary number of tasks. Simulations and real data experiments demonstrate the advantage of the proposed MTA estimators over standard averaging and James-Stein estimation.",
+    "authors": [
+        "Sergey Feldman",
+        "Maya R. Gupta",
+        "Bela A. Frigyik"
+    ],
+    "id": "feldman14a",
+    "issue": 106,
+    "pages": [
+        3621,
+        3662
+    ],
+    "title": "Revisiting Stein's Paradox: Multi-Task Averaging",
+    "volume": 15,
+    "year": 2014
+}

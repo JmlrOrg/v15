@@ -1,0 +1,16 @@
+{
+    "abstract": "With the development of data acquisition equipment, more and more modalities become available for gesture recognition. However, there still exist two critical issues for multi-modal gesture recognition: how to select discriminative features for recognition and how to fuse features from different modalities. In this paper, we propose a novel Bayesian Co-Boosting framework for multi-modal gesture recognition. Inspired by boosting learning and co-training method, our proposed framework combines multiple collaboratively trained weak classifiers to construct the final strong classifier for the recognition task. During each iteration round, we randomly sample a number of feature subsets and estimate weak classifier's parameters for each subset. The optimal weak classifier and its corresponding feature subset are retained for strong classifier construction. Furthermore, we define an upper bound of training error and derive the update rule of instance's weight, which guarantees the error upper bound to be minimized through iterations. For demonstration, we present an implementation of our framework using hidden Markov models as weak classifiers. We perform extensive experiments using the ChaLearn MMGR and ChAirGest data sets, in which our approach achieves 97.63% and 96.53% accuracy respectively on each publicly available data set.",
+    "authors": [
+        "Jiaxiang Wu",
+        "Jian Cheng"
+    ],
+    "id": "wu14a",
+    "issue": 86,
+    "pages": [
+        3013,
+        3036
+    ],
+    "title": "Bayesian Co-Boosting for Multi-modal Gesture Recognition",
+    "volume": 15,
+    "year": 2014
+}

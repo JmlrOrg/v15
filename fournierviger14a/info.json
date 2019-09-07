@@ -1,0 +1,20 @@
+{
+    "abstract": "We present SPMF, an open-source data mining library offering implementations of more than 55 data mining algorithms. SPMF is a cross-platform library implemented in Java, specialized for discovering patterns in transaction and sequence databases such as frequent itemsets, association rules and sequential patterns. The source code can be integrated in other Java programs. Moreover, SPMF offers a command line interface and a simple graphical interface for quick testing. The source code is available under the GNU General Public License, version 3. The website of the project offers several resources such as documentation with examples of how to run each algorithm, a developer's guide, performance comparisons of algorithms, data sets, an active forum, a FAQ and a mailing list.",
+    "authors": [
+        "Philippe Fournier-Viger",
+        "Antonio Gomariz",
+        "Ted Gueniche",
+        "Azadeh Soltani",
+        "Cheng-Wei Wu",
+        "Vincent S. Tseng"
+    ],
+    "id": "fournierviger14a",
+    "issue": 104,
+    "pages": [
+        3569,
+        3573
+    ],
+    "title": "SPMF: A Java Open-Source Pattern Mining Library",
+    "volume": 15,
+    "year": 2014
+}

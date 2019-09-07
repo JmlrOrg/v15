@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a novel and efficient algorithm for maximizing the observed log-likelihood of a multivariate normal data matrix with missing values. We show that our procedure, based on iteratively regressing the missing on the observed variables, generalizes the standard EM algorithm by alternating between different complete data spaces and performing the E-Step incrementally. In this non-standard setup we prove numerical convergence to a stationary point of the observed log- likelihood. For high-dimensional data, where the number of variables may greatly exceed sample size, we perform regularization using a Lasso-type penalty. This introduces sparsity in the regression coefficients used for imputation, permits fast computation and warrants competitive performance in terms of estimating the missing entries. We show on simulated and real data that the new method often improves upon other modern imputation techniques such as k-nearest neighbors imputation, nuclear norm minimization or a penalized likelihood approach with an $\\ell_1$-penalty on the concentration matrix.",
+    "authors": [
+        "Nicolas St{\\\"a}dler",
+        "Daniel J. Stekhoven",
+        "Peter B{\\\"u}hlmann"
+    ],
+    "id": "staedler14a",
+    "issue": 55,
+    "pages": [
+        1903,
+        1928
+    ],
+    "title": "Pattern Alternating Maximization Algorithm for Missing Data in High-Dimensional Problems",
+    "volume": 15,
+    "year": 2014
+}

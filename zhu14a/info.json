@@ -1,0 +1,18 @@
+{
+    "abstract": "Max-margin learning is a powerful approach to building classifiers and structured output predictors. Recent work on max-margin supervised topic models has successfully integrated it with Bayesian topic models to discover discriminative latent semantic structures and make accurate predictions for unseen testing data. However, the resulting learning problems are usually hard to solve because of the non-smoothness of the margin loss. Existing approaches to building max-margin supervised topic models rely on an iterative procedure to solve multiple latent SVM subproblems with additional mean-field assumptions on the desired posterior distributions. This paper presents an alternative approach by defining a new max-margin loss. Namely, we present Gibbs max-margin supervised topic models, a latent variable Gibbs classifier to discover hidden topic representations for various tasks, including classification, regression and multi-task learning. Gibbs max- margin supervised topic models minimize an expected margin loss, which is an upper bound of the existing margin loss derived from an expected prediction rule. By introducing augmented variables and integrating out the Dirichlet variables analytically by conjugacy, we develop simple Gibbs sampling algorithms with no restrictive assumptions and no need to solve SVM subproblems. Furthermore, each step of the \u00e2\u0080\u009caugment-and-collapse\" Gibbs sampling algorithms has an analytical conditional distribution, from which samples can be easily drawn. Experimental results on several medium-sized and large-scale data sets demonstrate significant improvements on time efficiency. The classification performance is also improved over competitors on binary, multi- class and multi-label classification tasks.",
+    "authors": [
+        "Jun Zhu",
+        "Ning Chen",
+        "Hugh Perkins",
+        "Bo Zhang"
+    ],
+    "id": "zhu14a",
+    "issue": 31,
+    "pages": [
+        1073,
+        1110
+    ],
+    "title": "Gibbs Max-margin Topic Models with Data Augmentation",
+    "volume": 15,
+    "year": 2014
+}

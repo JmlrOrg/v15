@@ -1,0 +1,16 @@
+{
+    "abstract": "Most existing algorithms for learning Markov network structure either are limited to learning interactions among few variables or are very slow, due to the large space of possible structures. In this paper, we propose three new methods for using decision trees to learn Markov network structures. The advantage of using decision trees is that they are very fast to learn and can represent complex interactions among many variables. The first method, DTSL, learns a decision tree to predict each variable and converts each tree into a set of conjunctive features that define the Markov network structure. The second, DT-BLM, builds on DTSL by using it to initialize a search-based Markov network learning algorithm recently proposed by Davis and Domingos (2010). The third, DT+L1, combines the features learned by DTSL with those learned by an L1-regularized logistic regression method (L1) proposed by Ravikumar et al. (2009). In an extensive empirical evaluation on 20 data sets, DTSL is comparable to L1 and significantly faster and more accurate than two other baselines. DT-BLM is slower than DTSL, but obtains slightly higher accuracy. DT+L1 combines the strengths of DTSL and L1 to perform significantly better than either of them with only a modest increase in training time.",
+    "authors": [
+        "Daniel Lowd",
+        "Jesse Davis"
+    ],
+    "id": "lowd14a",
+    "issue": 16,
+    "pages": [
+        501,
+        532
+    ],
+    "title": "Improving Markov Network Structure Learning Using Decision Trees",
+    "volume": 15,
+    "year": 2014
+}

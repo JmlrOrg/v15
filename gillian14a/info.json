@@ -1,0 +1,16 @@
+{
+    "abstract": "The Gesture Recognition Toolkit is a cross-platform open-source C++ library designed to make real-time machine learning and gesture recognition more accessible for non-specialists. Emphasis is placed on ease of use, with a consistent, minimalist design that promotes accessibility while supporting flexibility and customization for advanced users. The toolkit features a broad range of classification and regression algorithms and has extensive support for building real-time systems. This includes algorithms for signal processing, feature extraction and automatic gesture spotting.",
+    "authors": [
+        "Nicholas Gillian",
+        "Joseph A. Paradiso"
+    ],
+    "id": "gillian14a",
+    "issue": 101,
+    "pages": [
+        3483,
+        3487
+    ],
+    "title": "The Gesture Recognition Toolkit",
+    "volume": 15,
+    "year": 2014
+}

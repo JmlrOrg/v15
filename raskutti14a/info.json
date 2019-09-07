@@ -1,0 +1,17 @@
+{
+    "abstract": "Early stopping is a form of regularization based on choosing when to stop running an iterative algorithm. Focusing on non- parametric regression in a reproducing kernel Hilbert space, we analyze the early stopping strategy for a form of gradient- descent applied to the least-squares loss function. We propose a data-dependent stopping rule that does not involve hold-out or cross-validation data, and we prove upper bounds on the squared error of the resulting function estimate, measured in either the $L^2(\\mathbb{P})$ and $L^2(\\mathbb{P}_n)$ norm. These upper bounds lead to minimax-optimal rates for various kernel classes, including Sobolev smoothness classes and other forms of reproducing kernel Hilbert spaces. We show through simulation that our stopping rule compares favorably to two other stopping rules, one based on hold-out data and the other based on Stein's unbiased risk estimate. We also establish a tight connection between our early stopping strategy and the solution path of a kernel ridge regression estimator.",
+    "authors": [
+        "Garvesh Raskutti",
+        "Martin J. Wainwright",
+        "Bin Yu"
+    ],
+    "id": "raskutti14a",
+    "issue": 11,
+    "pages": [
+        335,
+        366
+    ],
+    "title": "Early Stopping and Non-parametric Regression: An Optimal Data-dependent Stopping Rule",
+    "volume": 15,
+    "year": 2014
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "We develop an <tt>R</tt> package FASTCLIME for solving a family of regularized linear programming (LP) problems. Our package efficiently implements the parametric simplex algorithm, which provides a scalable and sophisticated tool for solving large- scale linear programs. As an illustrative example, one use of our LP solver is to implement an important sparse precision matrix estimation method called CLIME (Constrained $L_1$ Minimization Estimator). Compared with existing packages for this problem such as CLIME and FLARE, our package has three advantages: (1) it efficiently calculates the full piecewise- linear regularization path; (2) it provides an accurate dual certificate as stopping criterion; (3) it is completely coded in C and is highly portable. This package is designed to be useful to statisticians and machine learning researchers for solving a wide range of problems.",
+    "authors": [
+        "Haotian Pang",
+        "Han Liu",
+        "Robert V",
+        "erbei"
+    ],
+    "id": "pang14a",
+    "issue": 14,
+    "pages": [
+        489,
+        493
+    ],
+    "title": "The FASTCLIME Package for Linear Programming and Large-Scale Precision Matrix Estimation in R",
+    "volume": 15,
+    "year": 2014
+}

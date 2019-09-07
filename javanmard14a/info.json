@@ -1,0 +1,16 @@
+{
+    "abstract": " <p>Fitting high-dimensional statistical models often requires the use of non-linear parameter estimation procedures. As a consequence, it is generally impossible to obtain an exact characterization of the probability distribution of the parameter estimates. This in turn implies that it is extremely challenging to quantify the <i>uncertainty</i> associated with a certain parameter estimate. Concretely, no commonly accepted procedure exists for computing classical measures of uncertainty and statistical significance as confidence intervals or $p$-values for these models.</p> <p>We consider here high- dimensional linear regression problem, and propose an efficient algorithm for constructing confidence intervals and $p$-values. The resulting confidence intervals have nearly optimal size. When testing for the null hypothesis that a certain parameter is vanishing, our method has nearly optimal power.</p> <p>Our approach is based on constructing a `de-biased' version of regularized M-estimators. The new construction improves over recent work in the field in that it does not assume a special structure on the design matrix. We test our method on synthetic data and a high- throughput genomic data set about riboflavin production rate, made publicly available by B\u00c3\u00bchlmann et al. (2014).</p>",
+    "authors": [
+        "Adel Javanmard",
+        "Andrea Montanari"
+    ],
+    "id": "javanmard14a",
+    "issue": 82,
+    "pages": [
+        2869,
+        2909
+    ],
+    "title": "Confidence Intervals and Hypothesis Testing for High-Dimensional Regression",
+    "volume": 15,
+    "year": 2014
+}

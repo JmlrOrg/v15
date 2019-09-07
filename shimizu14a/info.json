@@ -1,0 +1,16 @@
+{
+    "abstract": "Several existing methods have been shown to consistently estimate causal direction assuming linear or some form of nonlinear relationship and no latent confounders. However, the estimation results could be distorted if either assumption is violated. We develop an approach to determining the possible causal direction between two observed variables when latent confounding variables are present. We first propose a new linear non-Gaussian acyclic structural equation model with individual- specific effects that are sometimes the source of confounding. Thus, modeling individual-specific effects as latent variables allows latent confounding to be considered. We then propose an empirical Bayesian approach for estimating possible causal direction using the new model. We demonstrate the effectiveness of our method using artificial and real-world data.",
+    "authors": [
+        "Shohei Shimizu",
+        "Kenneth Bollen"
+    ],
+    "id": "shimizu14a",
+    "issue": 76,
+    "pages": [
+        2629,
+        2652
+    ],
+    "title": "Bayesian Estimation of Causal Direction in Acyclic Structural Equation Models with Individual-specific Confounder Variables and Non-Gaussian Distributions",
+    "volume": 15,
+    "year": 2014
+}

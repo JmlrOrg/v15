@@ -1,0 +1,17 @@
+{
+    "abstract": "Existing Bayesian models, especially nonparametric Bayesian methods, rely on specially conceived priors to incorporate domain knowledge for discovering improved latent representations. While priors affect posterior distributions through Bayes' rule, imposing posterior regularization is arguably more direct and in some cases more natural and general. In this paper, we present <i>regularized Bayesian inference</i> (RegBayes), a novel computational framework that performs posterior inference with a regularization term on the desired post-data posterior distribution under an information theoretical formulation. RegBayes is more flexible than the procedure that elicits expert knowledge via priors, and it covers both directed Bayesian networks and undirected Markov networks. When the regularization is induced from a linear operator on the posterior distributions, such as the expectation operator, we present a general convex-analysis theorem to characterize the solution of RegBayes. Furthermore, we present two concrete examples of RegBayes, <i>infinite latent support vector machines</i> (iLSVM) and <i>multi-task infinite latent support vector machines</i> (MT-iLSVM), which explore the large- margin idea in combination with a nonparametric Bayesian model for discovering predictive latent features for classification and multi-task learning, respectively. We present efficient inference methods and report empirical studies on several benchmark data sets, which appear to demonstrate the merits inherited from both large-margin learning and Bayesian nonparametrics. Such results contribute to push forward the interface between these two important subfields, which have been largely treated as isolated in the community.",
+    "authors": [
+        "Jun Zhu",
+        "Ning Chen",
+        "Eric P. Xing"
+    ],
+    "id": "zhu14b",
+    "issue": 53,
+    "pages": [
+        1799,
+        1847
+    ],
+    "title": "Bayesian Inference with Posterior Regularization and Applications to Infinite Latent SVMs",
+    "volume": 15,
+    "year": 2014
+}

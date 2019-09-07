@@ -1,0 +1,17 @@
+{
+    "abstract": " <p>The disagreement coefficient of Hanneke has become a central data independent invariant in proving active learning rates. It has been shown in various ways that a concept class with low complexity together with a bound on the disagreement coefficient at an optimal solution allows active learning rates that are superior to passive learning ones.</p> <p>We present a different tool for pool based active learning which follows from the existence of a certain uniform version of low disagreement coefficient, but is not equivalent to it. In fact, we present two fundamental active learning problems of significant interest for which our approach allows nontrivial active learning bounds. However, any general purpose method relying on the disagreement coefficient bounds only, fails to guarantee any useful bounds for these problems. The applications of interest are: Learning to rank from pairwise preferences, and clustering with side information (a.k.a. semi-supervised clustering).</p> <p>The tool we use is based on the learner's ability to compute an estimator of the difference between the loss of any hypothesis and some fixed \u00e2\u0080\u009cpivotal\u00e2\u0080\u009d hypothesis to within an absolute error of at most $\\epsilon$ times the disagreement measure ($\\ell_1$ distance) between the two hypotheses. We prove that such an estimator implies the existence of a learning algorithm which, at each iteration, reduces its in-class excess risk to within a constant factor. Each iteration replaces the current pivotal hypothesis with the minimizer of the estimated loss difference function with respect to the previous pivotal hypothesis. The label complexity essentially becomes that of computing this estimator.</p>",
+    "authors": [
+        "Nir Ailon",
+        "Ron Begleiter",
+        "Esther Ezra"
+    ],
+    "id": "ailon14a",
+    "issue": 25,
+    "pages": [
+        885,
+        920
+    ],
+    "title": "Active Learning Using Smooth Relative Regret Approximations with Applications",
+    "volume": 15,
+    "year": 2014
+}

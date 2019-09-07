@@ -1,0 +1,16 @@
+{
+    "abstract": "Trace-norm regularization is a widely-used and successful approach for collaborative filtering and matrix completion. However, previous learning guarantees require strong assumptions, such as a uniform distribution over the matrix entries. In this paper, we bridge this gap by providing such guarantees, under much milder assumptions which correspond to matrix completion as performed in practice. In fact, we claim that previous difficulties partially stemmed from a mismatch between the standard learning-theoretic modeling of matrix completion, and its practical application. Our results also shed some light on the issue of matrix completion with bounded models, which enforce predictions to lie within a certain range. In particular, we provide experimental and theoretical evidence that such models lead to a modest yet significant improvement.",
+    "authors": [
+        "Ohad Shamir",
+        "Shai Shalev-Shwartz"
+    ],
+    "id": "shamir14a",
+    "issue": 98,
+    "pages": [
+        3401,
+        3423
+    ],
+    "title": "Matrix Completion with the Trace Norm: Learning, Bounding, and Transducing",
+    "volume": 15,
+    "year": 2014
+}

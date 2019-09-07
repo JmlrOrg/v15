@@ -1,0 +1,32 @@
+{
+    "abstract": "Click fraud--the deliberate clicking on advertisements with no real interest on the product or service offered--is one of the most daunting problems in online advertising. Building an effective fraud detection method is thus pivotal for online advertising businesses. We organized a <i>Fraud Detection in Mobile Advertising</i> (FDMA) 2012 Competition, opening the opportunity for participants to work on real-world fraud data from BuzzCity Pte. Ltd., a global mobile advertising company based in Singapore. In particular, the task is to identify fraudulent publishers who generate illegitimate clicks, and distinguish them from normal publishers. The competition was held from September 1 to September 30, 2012, attracting 127 teams from more than 15 countries. The mobile advertising data are unique and complex, involving heterogeneous information, noisy patterns with missing values, and highly imbalanced class distribution. The competition results provide a comprehensive study on the usability of data mining-based fraud detection approaches in practical setting. Our principal findings are that features derived from fine-grained time-series analysis are crucial for accurate fraud detection, and that ensemble methods offer promising solutions to highly-imbalanced nonlinear classification tasks with mixed variable types and noisy/missing patterns. The competition data remain available for further studies at <a href=\"http://palanteer.sis.smu.edu.sg/fdma2012/\">palanteer.sis.smu.edu.sg/fdma2012</a>.",
+    "authors": [
+        "Richard Oentaryo",
+        "Ee-Peng Lim",
+        "Michael Finegold",
+        "David Lo",
+        "Feida Zhu",
+        "Clifton Phua",
+        "Eng-Yeow Cheu",
+        "Ghim-Eng Yap",
+        "Kelvin Sim",
+        "Minh Nhut Nguyen",
+        "Kasun Perera",
+        "Bijay Neupane",
+        "Mustafa Faisal",
+        "Zeyar Aung",
+        "Wei Lee Woon",
+        "Wei Chen",
+        "Dhaval Patel",
+        "Daniel Berrar"
+    ],
+    "id": "oentaryo14a",
+    "issue": 3,
+    "pages": [
+        99,
+        140
+    ],
+    "title": "Detecting Click Fraud in Online Advertising: A Data Mining Approach",
+    "volume": 15,
+    "year": 2014
+}

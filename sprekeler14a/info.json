@@ -1,0 +1,17 @@
+{
+    "abstract": "We present and test an extension of slow feature analysis as a novel approach to nonlinear blind source separation. The algorithm relies on temporal correlations and iteratively reconstructs a set of statistically independent sources from arbitrary nonlinear instantaneous mixtures. Simulations show that it is able to invert a complicated nonlinear mixture of two audio signals with a high reliability. The algorithm is based on a mathematical analysis of slow feature analysis for the case of input data that are generated from statistically independent sources.",
+    "authors": [
+        "Henning Sprekeler",
+        "Tiziano Zito",
+        "Laurenz Wiskott"
+    ],
+    "id": "sprekeler14a",
+    "issue": 26,
+    "pages": [
+        921,
+        947
+    ],
+    "title": "An Extension of Slow Feature Analysis for Nonlinear Blind Source Separation",
+    "volume": 15,
+    "year": 2014
+}

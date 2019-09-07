@@ -1,0 +1,16 @@
+{
+    "abstract": "Optimal transport distances have been used for more than a decade in machine learning to compare histograms of features. They have one parameter: the <i>ground metric</i>, which can be any metric between the features themselves. As is the case for all parameterized distances, optimal transport distances can only prove useful in practice when this parameter is carefully chosen. To date, the only option available to practitioners to set the ground metric parameter was to rely on <i>a priori</i> knowledge of the features, which limited considerably the scope of application of optimal transport distances. We propose to lift this limitation and consider instead algorithms that can learn the ground metric using only a training set of labeled histograms. We call this approach ground metric learning. We formulate the problem of learning the ground metric as the minimization of the difference of two convex polyhedral functions over a convex set of metric matrices. We follow the presentation of our algorithms with promising experimental results which show that this approach is useful both for retrieval and binary/multiclass classification tasks.",
+    "authors": [
+        "Marco Cuturi",
+        "David Avis"
+    ],
+    "id": "cuturi14a",
+    "issue": 17,
+    "pages": [
+        533,
+        564
+    ],
+    "title": "Ground Metric Learning",
+    "volume": 15,
+    "year": 2014
+}

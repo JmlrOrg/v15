@@ -1,0 +1,38 @@
+{
+    "abstract": "Track 2 of KDD Cup 2013 aims at determining duplicated authors in a data set from Microsoft Academic Search. This type of problems appears in many large-scale applications that compile information from different sources. This paper describes our solution developed at National Taiwan University to win the first prize of the competition. We propose an effective name matching framework and realize two implementations. An important strategy in our approach is to consider Chinese and non-Chinese names separately because of their different naming conventions. Post-processing including merging results of two predictions further boosts the performance. Our approach achieves F1-score 0.99202 on the private leader board, while 0.99195 on the public leader board.",
+    "authors": [
+        "Wei-Sheng Chin",
+        "Yong Zhuang",
+        "Yu-Chin Juan",
+        "Felix Wu",
+        "Hsiao-Yu Tung",
+        "Tong Yu",
+        "Jui-Pin Wang",
+        "Cheng-Xia Chang",
+        "Chun-Pai Yang",
+        "Wei-Cheng Chang",
+        "Kuan-Hao Huang",
+        "Tzu-Ming Kuo",
+        "Shan-Wei Lin",
+        "Young-San Lin",
+        "Yu-Chen Lu",
+        "Yu-Chuan Su",
+        "Cheng-Kuang Wei",
+        "Tu-Chun Yin",
+        "Chun-Liang Li",
+        "Ting-Wei Lin",
+        "Cheng-Hao Tsai",
+        "Shou-De Lin",
+        "Hsuan-Tien Lin",
+        "Chih-Jen Lin"
+    ],
+    "id": "chin14a",
+    "issue": 87,
+    "pages": [
+        3037,
+        3064
+    ],
+    "title": "Effective String Processing and Matching for Author Disambiguation",
+    "volume": 15,
+    "year": 2014
+}

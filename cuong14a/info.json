@@ -1,0 +1,18 @@
+{
+    "abstract": "Dependencies among neighboring labels in a sequence are important sources of information for sequence labeling and segmentation. However, only first-order dependencies, which are dependencies between adjacent labels or segments, are commonly exploited in practice because of the high computational complexity of typical inference algorithms when longer distance dependencies are taken into account. In this paper, we give efficient inference algorithms to handle high-order dependencies between labels or segments in conditional random fields, under the assumption that the number of distinct label patterns used in the features is small. This leads to efficient learning algorithms for these conditional random fields. We show experimentally that exploiting high-order dependencies can lead to substantial performance improvements for some problems, and we discuss conditions under which high-order features can be effective.",
+    "authors": [
+        "Nguyen Viet Cuong",
+        "Nan Ye",
+        "Wee Sun Lee",
+        "Hai Leong Chieu"
+    ],
+    "id": "cuong14a",
+    "issue": 28,
+    "pages": [
+        981,
+        1009
+    ],
+    "title": "Conditional Random Field with High-order Dependencies for Sequence Labeling and Segmentation",
+    "volume": 15,
+    "year": 2014
+}

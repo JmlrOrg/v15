@@ -1,0 +1,16 @@
+{
+    "abstract": "Classical boosting algorithms, such as AdaBoost, build a strong classifier without concern for the computational cost. Some applications, in particular in computer vision, may involve millions of training examples and very large feature spaces. In such contexts, the training time of off-the-shelf boosting algorithms may become prohibitive. Several methods exist to accelerate training, typically either by sampling the features or the examples used to train the weak learners. Even if some of these methods provide a guaranteed speed improvement, they offer no insurance of being more efficient than any other, given the same amount of time. The contributions of this paper are twofold: (1) a strategy to better deal with the increasingly common case where features come from multiple sources (for example, color, shape, texture, etc., in the case of images) and therefore can be partitioned into meaningful subsets; (2) new algorithms which balance at every boosting iteration the number of weak learners and the number of training examples to look at in order to maximize the expected loss reduction. Experiments in image classification and object recognition on four standard computer vision data sets show that the adaptive methods we propose outperform basic sampling and state-of-the-art bandit methods.",
+    "authors": [
+        "Charles Dubout",
+        "Francois Fleuret"
+    ],
+    "id": "dubout14a",
+    "issue": 41,
+    "pages": [
+        1431,
+        1453
+    ],
+    "title": "Adaptive Sampling for Large Scale Boosting",
+    "volume": 15,
+    "year": 2014
+}

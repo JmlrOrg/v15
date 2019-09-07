@@ -1,0 +1,17 @@
+{
+    "abstract": "Particle Markov chain Monte Carlo (pmcmc) is a systematic way of combining the two main tools used for Monte Carlo statistical inference: sequential Monte Carlo (smc) and Markov chain Monte Carlo (mcmc). We present a new pmcmc algorithm that we refer to as <i>particle Gibbs with ancestor sampling</i> (pgas). pgas provides the data analyst with an off-the-shelf class of Markov kernels that can be used to simulate, for instance, the typically high-dimensional and highly autocorrelated state trajectory in a state-space model. The <i>ancestor sampling</i> procedure enables fast mixing of the pgas kernel even when using seemingly few particles in the underlying smc sampler. This is important as it can significantly reduce the computational burden that is typically associated with using smc. pgas is conceptually similar to the existing <i>pg with backward simulation</i> (pgbs) procedure. Instead of using separate forward and backward sweeps as in pgbs, however, we achieve the same effect in a single forward sweep. This makes pgas well suited for addressing inference problems not only in state-space models, but also in models with more complex dependencies, such as non-Markovian, Bayesian nonparametric, and general probabilistic graphical models.",
+    "authors": [
+        "Fredrik Lindsten",
+        "Michael I. Jordan",
+        "Thomas B. Sch{\\\"o}n"
+    ],
+    "id": "lindsten14a",
+    "issue": 63,
+    "pages": [
+        2145,
+        2184
+    ],
+    "title": "Particle Gibbs with Ancestor Sampling",
+    "volume": 15,
+    "year": 2014
+}

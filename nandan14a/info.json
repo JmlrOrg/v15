@@ -1,0 +1,18 @@
+{
+    "abstract": "Applications of non-linear kernel support vector machines (SVMs) to large data sets is seriously hampered by its excessive training time. We propose a modification, called the approximate extreme points support vector machine (AESVM), that is aimed at overcoming this burden. Our approach relies on conducting the SVM optimization over a carefully selected subset, called the representative set, of the training data set. We present analytical results that indicate the similarity of AESVM and SVM solutions. A linear time algorithm based on convex hulls and extreme points is used to compute the representative set in kernel space. Extensive computational experiments on nine data sets compared AESVM to LIBSVM (Chang and Lin, 2011), CVM (Tsang et al., 2005), BVM (Tsang et al., 2007), LASVM (Bordes et al., 2005), SVM<sup>perf</sup> (Joachims and Yu, 2009), and the random features method (Rahimi and Recht, 2007). Our AESVM implementation was found to train much faster than the other methods, while its classification accuracy was similar to that of LIBSVM in all cases. In particular, for a seizure detection data set, AESVM training was almost 500 times faster than LIBSVM and LASVM and 20 times faster than CVM and BVM. Additionally, AESVM also gave competitively fast classification times.",
+    "authors": [
+        "Manu N",
+        "an",
+        "Pramod P. Khargonekar",
+        "Sachin S. Talathi"
+    ],
+    "id": "nandan14a",
+    "issue": 2,
+    "pages": [
+        59,
+        98
+    ],
+    "title": "Fast SVM Training Using Approximate Extreme Points",
+    "volume": 15,
+    "year": 2014
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Approachability has become a standard tool in analyzing learning algorithms in the adversarial online learning setup. We develop a variant of approachability for games where there is ambiguity in the obtained reward: it belongs to a set rather than being a single vector. Using this variant we tackle the problem of approachability in games with partial monitoring and develop a simple and generally efficient strategy (i.e., with constant per-step complexity) for this setup. As an important example, we instantiate our general strategy to the case when external regret or internal regret is to be minimized under partial monitoring.",
+    "authors": [
+        "Shie Mannor",
+        "Vianney Perchet",
+        "Gilles Stoltz"
+    ],
+    "id": "mannor14a",
+    "issue": 94,
+    "pages": [
+        3247,
+        3295
+    ],
+    "title": "Set-Valued Approachability and Online Learning with Partial Monitoring",
+    "volume": 15,
+    "year": 2014
+}

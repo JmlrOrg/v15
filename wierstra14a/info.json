@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper presents Natural Evolution Strategies (NES), a recent family of black-box optimization algorithms that use the natural gradient to update a parameterized search distribution in the direction of higher expected fitness. We introduce a collection of techniques that address issues of convergence, robustness, sample complexity, computational complexity and sensitivity to hyperparameters. This paper explores a number of implementations of the NES family, such as general-purpose multi-variate normal distributions and separable distributions tailored towards search in high dimensional spaces. Experimental results show best published performance on various standard benchmarks, as well as competitive performance on others.",
+    "authors": [
+        "Daan Wierstra",
+        "Tom Schaul",
+        "Tobias Glasmachers",
+        "Yi Sun",
+        "Jan Peters",
+        "J\\\"{u}rgen Schmidhuber"
+    ],
+    "id": "wierstra14a",
+    "issue": 27,
+    "pages": [
+        949,
+        980
+    ],
+    "title": "Natural Evolution Strategies",
+    "volume": 15,
+    "year": 2014
+}
