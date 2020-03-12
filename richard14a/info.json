@@ -2,7 +2,7 @@
     "abstract": "In the paper, we consider the problem of link prediction in time-evolving graphs. We assume that certain graph features, such as the node degree, follow a vector autoregressive (VAR) model and we propose to use this information to improve the accuracy of prediction. Our strategy involves a joint optimization procedure over the space of adjacency matrices and VAR matrices. On the adjacency matrix it takes into account both sparsity and low rank properties and on the VAR it encodes the sparsity. The analysis involves oracle inequalities that illustrate the trade-offs in the choice of smoothing parameters when modeling the joint effect of sparsity and low rank. The estimate is computed efficiently using proximal methods, and evaluated through numerical experiments.",
     "authors": [
         "Emile Richard",
-        "St\\'{e}phane Ga\\\"{i}ffas",
+        "St{{\\'e}}phane Ga{{\\\"i}}ffas",
         "Nicolas Vayatis"
     ],
     "id": "richard14a",
