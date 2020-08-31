@@ -9,7 +9,14 @@
         3915,
         3919
     ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/rmcantin/bayesopt"
+        ]
+    ],
     "title": "BayesOpt: A Bayesian Optimization Library for Nonlinear Optimization, Experimental Design and Bandits",
     "volume": 15,
-    "year": 2014
+    "year": 2014,
+    "special_issue": "MLOSS"
 }
