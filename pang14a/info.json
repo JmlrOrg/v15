@@ -14,5 +14,6 @@
     ],
     "title": "The FASTCLIME Package for Linear Programming and Large-Scale Precision Matrix Estimation in R",
     "volume": 15,
-    "year": 2014
+    "year": 2014,
+    "special_issue": "MLOSS"
 }

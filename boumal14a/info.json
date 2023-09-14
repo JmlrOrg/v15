@@ -14,5 +14,6 @@
     ],
     "title": "Manopt, a Matlab Toolbox for Optimization on Manifolds",
     "volume": 15,
-    "year": 2014
+    "year": 2014,
+    "special_issue": "MLOSS"
 }

@@ -14,5 +14,6 @@
     ],
     "title": "Conditional Random Field with High-order Dependencies for Sequence Labeling and Segmentation",
     "volume": 15,
-    "year": 2014
+    "year": 2014,
+    "special_issue": "MLOSS"
 }
