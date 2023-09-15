@@ -15,5 +15,6 @@
     "title": "Manopt, a Matlab Toolbox for Optimization on Manifolds",
     "volume": 15,
     "year": 2014,
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://www.manopt.org"]]
 }

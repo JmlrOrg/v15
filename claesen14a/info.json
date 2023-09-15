@@ -15,5 +15,6 @@
     "title": "EnsembleSVM: A Library for Ensemble Learning Using Support Vector Machines",
     "volume": 15,
     "year": 2014,
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://github.com/claesenm/EnsembleSVM"]]
 }

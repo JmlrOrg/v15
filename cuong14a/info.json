@@ -15,5 +15,6 @@
     "title": "Conditional Random Field with High-order Dependencies for Sequence Labeling and Segmentation",
     "volume": 15,
     "year": 2014,
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://github.com/nvcuong/HOSemiCRF"]]
 }

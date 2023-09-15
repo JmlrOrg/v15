@@ -14,5 +14,6 @@
     "title": "LIBOL: A Library for Online Learning Algorithms",
     "volume": 15,
     "year": 2014,
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://github.com/LIBOL/LIBOL"]]
 }

@@ -17,5 +17,6 @@
     "title": "SPMF: A Java Open-Source Pattern Mining Library",
     "volume": 15,
     "year": 2014,
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://www.philippe-fournier-viger.com/spmf/"]]
 }

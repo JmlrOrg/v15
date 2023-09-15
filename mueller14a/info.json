@@ -13,5 +13,6 @@
     "title": "pystruct - Learning Structured Prediction in Python",
     "volume": 15,
     "year": 2014,
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://pystruct.github.io"]]
 }
